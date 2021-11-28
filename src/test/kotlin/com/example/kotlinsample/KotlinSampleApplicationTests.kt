@@ -13,4 +13,12 @@ class KotlinSampleApplicationTests {
         println(list)
     }
 
+    @Test
+    fun map_test() {
+        val list = listOf(1,2,3,4,10)
+        val result = list.map { it * 10 }
+        println(list)
+        println(result)
+    }
+
 }
