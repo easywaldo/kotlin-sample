@@ -21,4 +21,12 @@ class KotlinSampleApplicationTests {
         println(result)
     }
 
+    @Test
+    fun type_references_test() {
+        val greet = "hello world"
+        println(greet)
+        println(greet::class)
+        println(greet::javaClass)
+    }
+
 }
