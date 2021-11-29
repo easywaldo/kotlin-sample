@@ -33,6 +33,9 @@ class KotlinSampleApplicationTests {
     fun person_test() {
         val person = Person("waldo", true)
         println(person.isMarried)
+        person.isMarried = false
+        println(person.isMarried)
+        person.name = "tester"
     }
 
 }
