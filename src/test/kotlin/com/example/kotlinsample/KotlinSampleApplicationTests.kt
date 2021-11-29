@@ -29,4 +29,10 @@ class KotlinSampleApplicationTests {
         println(greet::javaClass)
     }
 
+    @Test
+    fun person_test() {
+        val person = Person("waldo", true)
+        println(person.isMarried)
+    }
+
 }
