@@ -35,7 +35,15 @@ class KotlinSampleApplicationTests {
         println(person.isMarried)
         person.isMarried = false
         println(person.isMarried)
-        person.name = "tester"
+        //person.name = "tester"
+    }
+
+    @Test
+    fun rectangle_test() {
+        val square = Rectangle(20, 20)
+        println(square.isSquare)
+        val rectangle = Rectangle(100, 300)
+        println(rectangle.isSquare)
     }
 
 }
