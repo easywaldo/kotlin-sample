@@ -52,4 +52,10 @@ class KotlinSampleApplicationTests {
         println(nullString)
     }
 
+    @Test
+    fun string_template_test() {
+        val name = "waldo"
+        println("Hello, $name!!")
+    }
+
 }
