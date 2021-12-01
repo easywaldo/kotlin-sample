@@ -64,4 +64,18 @@ class KotlinSampleApplicationTests {
         println("wow ~~ ${stringArray[1]}")
     }
 
+    @Test
+    fun when_test() {
+        var someColor : Color = Color.BLUE
+        println(color_text(someColor))
+    }
+
+    fun color_text(someColor: Color) =
+        when (someColor) {
+            Color.BLACK -> "Black color"
+            Color.BLUE -> "This is blue"
+            Color.GREEN -> "Green man"
+            Color.INDIGO, Color.ORANGE, Color.RED, Color.VIOLET, Color.WHITE, Color.YELLOW -> "good color"
+        }
+
 }
