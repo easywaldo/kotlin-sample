@@ -46,4 +46,10 @@ class KotlinSampleApplicationTests {
         println(rectangle.isSquare)
     }
 
+    @Test
+    fun nullable_test() {
+        val nullString: String? = null
+        println(nullString)
+    }
+
 }
