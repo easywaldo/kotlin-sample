@@ -58,4 +58,10 @@ class KotlinSampleApplicationTests {
         println("Hello, $name!!")
     }
 
+    @Test
+    fun string_array_template_test() {
+        val stringArray = listOf("hello", "waldo", "good bye")
+        println("wow ~~ ${stringArray[1]}")
+    }
+
 }
